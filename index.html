@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Notifications App</title>
+</head>
+<body>
+    <notification class="app-container">
+        <section class="notification-header-container">
+            <div class="notification-header-heading-container">
+                <h1 class="notification-heading">Notifications</h1>
+                <button class="count-button" id="countButton">3</button>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" value="" id="checkboxInput" class="checkbox"/>
+                <label for="checkboxInput" class="checkbox-label">Mark All Read</label>
+            </div>
+        </section>
+        <section class="notitfication-list-container">
+            <notification class="notification-container bgcolor">
+                <div>
+                    <img class="profile-picture" src="https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Mark Webber</span>reacted to your recent post <span class="name-span">My first tournament today !</span></h1>
+                    <p class="reaction-time">1min ago</p>
+                </div>
+                <p class="hide-show-button"></p>
+            </notification>
+            <notification class="notification-container bgcolor">
+                <div>
+                    <img class="profile-picture" src="https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Angela Gray</span>followed you.</h1>
+                    <p class="reaction-time">5min ago</p>
+                </div>
+                <p class="hide-show-button"></p>
+            </notification>
+            <notification class="notification-container bgcolor">
+                <div>
+                    <img class="profile-picture" src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Jacob Thomson</span>has joined your group<span class="name-span">Chess club</span></h1>
+                    <p class="reaction-time">1day ago</p>
+                </div>
+                <p class="hide-show-button"></p>
+            </notification>
+            <notification class="notification-container">
+                <div>
+                    <img class="profile-picture image" src="https://fastly.picsum.photos/id/91/3504/2336.jpg?hmac=tK6z7RReLgUlCuf4flDKeg57o6CUAbgklgLsGL0UowU" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Rizky Hasanuddin</span>Sent you a private message <span class="name-span">My first tournament today !</span></h1>
+                    <p class="reaction-time">5days ago</p>
+                    <div class="message-container">
+                        <p class="message">
+                            Hello,thanks for setting the Chess club.I've been a member for a few weeks now and <br/>
+                            <br/>
+                            I'm already having lots of fun and improving my game.
+                        </p>
+                    </div>
+                </div>
+                <p class="hide-show-button d-none"></p>
+            </notification>
+            <notification class="notification-container">
+                <div>
+                    <img class="profile-picture" src="https://xsgames.co/randomusers/assets/avatars/male/66.jpg" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Kimberly smith</span>commented on your picture <span class="name-span">My first tournament today !</span></h1>
+                    <p class="reaction-time">1week ago</p>
+                </div>
+                <p class="hide-show-button d-none"><img class="profile-picture" src="https://xsgames.co/randomusers/assets/avatars/female/23.jpg" /></p>
+            </notification>
+            <notification class="notification-container">
+                <div>
+                    <img class="profile-picture" src="https://xsgames.co/randomusers/assets/avatars/female/58.jpg" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Nathan Peterson</span>reacted to your recent post <span class="name-span">5 end-game strategies to increase your win rate.</span></h1>
+                    <p class="reaction-time">2weeks ago</p>
+                </div>
+                <p class="hide-show-button d-none"></p>
+            </notification>
+            <notification class="notification-container">
+                <div>
+                    <img class="profile-picture" src="https://xsgames.co/randomusers/assets/avatars/male/60.jpg" alt="notification"/>
+                </div>
+                <div>
+                    <h1 class="react-font"><span class="name">Anna kim</span>left group <span class="name-span">chess club</span></h1>
+                    <p class="reaction-time">1min ago</p>
+                </div>
+                <p class="hide-show-button d-none"></p>
+            </notification>
+        </section>
+    </notification>
+    <script src="./challenge1.js"></script>
+</body>
+</html>

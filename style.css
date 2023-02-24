@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dotted black; */
+    background-color: white;
+    /* padding: 100px; */
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px gray;
+
+}
+.notification-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 90%;
+}
+.notification-header-heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    
+}
+.notification-heading {
+    color: black;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.count-button {
+    background-color: navy;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 28px;
+    width: 40px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 5px;
+}
+.checkbox-container {
+    display: flex;
+    /* border: 2px solid red; */
+}
+.checkbox-label {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.notitfication-list-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid navy; */
+}
+.notification-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.notification-container:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.profile-picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.image {
+    margin-bottom: 100px;
+}
+.name {
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.name-span {
+    color: navy;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.react-font {
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.reaction-time{
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.hide-show-button {
+    color: red;
+    font-size: 10px;
+    margin-left: 10px;
+    /* width: 12px;
+    height: 12px;
+    background-color: blue;
+    border-radius: 15px; */
+}
+.message-container {
+    display: flex;
+    border: 2px solid gray;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.message {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bgcolor{
+    background-color:lightgray;
+}
+/* .checkbox {
+    height: 0px;
+    width: 30px;
+} */
+@media screen and (max-width: 480px) {
+    body {
+        display: flex;
+    }
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .notification-heading{
+        font-size: 15px;
+    }
+    .count-button {
+        background-color: navy;
+        color: white;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        height: 18px;
+        width: 20px;
+        border-radius: 2px;
+        border: 0px;
+        margin-left: 3px;
+    }
+    .checkbox-label {
+        color: black;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .checkbox-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-picture {
+        height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        margin-right: 5px;
+    }
+    .image {
+        margin-bottom: 40px;
+    }
+    .name {
+        color: black;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 300;
+        margin-right: 2px;
+    }
+    .name-span {
+        color: navy;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 300;
+        margin-left: 3px;
+    }
+    .react-font {
+        color: gray;
+        font-size: 13px;
+        font-weight: 300;
+        font-family: sans-serif;
+    }
+    .reaction-time{
+        color: gray;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .hide-show-button {
+        color: red;
+        font-size: 6px;
+        margin-left: 10px;
+        /* width: 12px;
+        height: 12px;
+        background-color: blue;
+        border-radius: 15px; */
+    }
+    .message-container {
+        display: flex;
+        border: 2px solid gray;
+        padding: 10px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .message {
+        color: gray;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
